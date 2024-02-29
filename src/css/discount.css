@@ -1,6 +1,7 @@
 .discount {
-  max-width: 375px;
-  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   background-color: aliceblue;
 }
 .container {
@@ -46,7 +47,6 @@ padding: 0  10px;
 
 @media  screen and (min-width: 768px){
   .discount {
-    max-width: 768px;
   }
 .div-discount {
 padding: 100px 16px;
@@ -72,9 +72,9 @@ padding: 0 16px;
 
 @media  screen and (min-width: 1158px) {
   .discount {
-    max-width: 1158px;
-    
+
   }
+    
   .div-discount{
     padding: 100px;
   }
