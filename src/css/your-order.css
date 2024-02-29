@@ -1,4 +1,6 @@
 .your-order {
+    display: flex;
+    justify-content: center;
     background-color: #7A3145;
 }
 .order-container {
