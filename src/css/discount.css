@@ -1,0 +1,92 @@
+.discount {
+  max-width: 375px;
+  padding: 80px 10px;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+.container {
+}
+.advertisement {
+      position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.div-discount {
+  max-width: 100%;
+}
+.div-h {
+}
+.discount-h {
+font-weight: 600;
+font-size: 48px;
+line-height: 104%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #FBFBFB;
+padding-left: 10px;
+background-color: #576F35;
+  border: 1px solid #000;
+border-radius: 12px;
+}
+.discount-p {
+font-weight: 600;
+font-size: 48px;
+line-height: 104%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+padding-left: 10px;
+}
+
+@media  screen and (min-width: 768px){
+  .discount {
+    padding: 100px 16px;
+    max-width: 768px;
+  }
+  .div-discount{
+  }
+  .discount-h {
+    font-weight: 600;
+font-size: 64px;
+line-height: 109%;
+border: none;
+padding-left: 16px;
+border: none;
+
+  }
+  .discount-p {
+font-weight: 600;
+font-size: 64px;
+line-height: 109%;
+padding-left: 16px;
+  }
+}
+
+@media  screen and (min-width: 1158px) {
+  .discount {
+    max-width: 1158px;
+    padding: 100px;
+  }
+  .div-discount{
+  }
+  .discount-h {
+    font-weight: 600;
+font-size: 76px;
+line-height: 105%;
+padding-left: 13px;
+padding-right: 13px;
+width: 808px;
+  }
+  .discount-p {
+    font-weight: 600;
+font-size: 76px;
+line-height: 105%;
+padding-left: 13px;
+  }
+}
