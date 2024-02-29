@@ -1,5 +1,8 @@
 .hero {
   background-color: #576f35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-container {
@@ -48,8 +51,11 @@
   }
 }
 
-/* Mobile */
+/* Mobile 375px */
 @media screen and (min-width: 375px) {
+  .hero-container {
+    width: 375px;
+  }
   .hero-title {
     font-size: 48px;
   }
@@ -58,7 +64,7 @@
   }
 }
 
-/* Tablet */
+/* Tablet 768px */
 @media screen and (min-width: 768px) {
   .hero-container {
     width: 768px;
@@ -90,7 +96,7 @@
   }
 }
 
-/* Desktop */
+/* Desktop 1280px */
 @media screen and (min-width: 1280px) {
   .hero-container {
     flex-direction: row;
