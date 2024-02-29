@@ -1,10 +1,12 @@
 .discount {
   max-width: 375px;
-  padding: 80px 10px;
   margin: 0 auto;
   background-color: aliceblue;
 }
 .container {
+}
+.div-discount {
+  padding: 80px 10px;
 }
 .discount-h {
       position: absolute;
@@ -18,49 +20,41 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.div-discount {
-  max-width: 100%;
-}
-.div-h {
-}
-.div-dis-h {
-
-}
-.dis-h {
-font-family: "Inter Tight";
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 50px;
-letter-spacing: -0.72px;
-text-transform: uppercase;
-color: #FBFBFB;
+.div-p {
 background-color: #576F35;
 border: 1px solid #000;
 border-radius: 12px;
-padding-left: 10px;
-padding-right: 10px;
 }
 .dis-p {
-font-family: "Inter Tight";
+color: #FBFBFB;
 font-size: 48px;
-font-style: normal;
 font-weight: 600;
-line-height: 50px; /* 104.167% */
-letter-spacing: -0.72px;
+line-height: 1.04;
+letter-spacing: -0.015em;
 text-transform: uppercase;
-padding-left: 10px;
-padding-right: 10px;
+padding: 3px 10px 0;
+}
+.taste-p {
+color: #141414;
+font-size: 48px;
+font-weight: 600;
+line-height: 1.04;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+padding: 0  10px;
 }
 
 @media  screen and (min-width: 768px){
   .discount {
-    padding: 100px 16px;
     max-width: 768px;
   }
-  .div-discount{
-  }
-  .dis-h {
+.div-discount {
+padding: 100px 16px;
+}
+.div-p {
+  border: none;
+}
+  .dis-p {
 font-size: 64px;
 line-height: 70px;
 letter-spacing: -0.96px;
@@ -68,7 +62,7 @@ border: none;
 padding: 8px 16px;
 
   }
-  .dis-p {
+  .taste-p {
 font-size: 64px;
 line-height: 70px;
 letter-spacing: -0.96px;
@@ -79,31 +73,25 @@ padding: 0 16px;
 @media  screen and (min-width: 1158px) {
   .discount {
     max-width: 1158px;
-    padding: 100px;
     
   }
   .div-discount{
+    padding: 100px;
   }
-    .dis-h {
-font-family: "Inter Tight";
+  .div-p {
+    width: 808px;
+  }
+    .dis-p {
 font-size: 76px;
-font-style: normal;
-font-weight: 600;
 line-height: 80px;
 letter-spacing: -1.14px;
-text-transform: uppercase;
-color: #FBFBFB;
+padding: 0 0 0 13px;
   }
-  .dis-p {
-font-family: "Inter Tight";
+  .taste-p {
 font-size: 76px;
-font-style: normal;
-font-weight: 600;
 line-height: 80px; /* 105.263% */
 letter-spacing: -1.14px;
-text-transform: uppercase;
-padding-left: 13px;
-display: inline-block;
+padding: 0;
   }
 
 }
