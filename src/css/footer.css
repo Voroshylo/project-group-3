@@ -1,5 +1,5 @@
 
-.footer {
+.footer-sec {
     padding: 40px 0;
     background-color: #7a3145;
   }
@@ -147,7 +147,7 @@
   /*=====================MIN-WIDTH: 768PX==========================*/
   
   @media screen and (min-width: 768px){
-    .footer{
+    .footer-sec{
       padding-top: 32px;
       padding-bottom: 32px;
   }
@@ -265,7 +265,7 @@
   
   
   @media screen and (min-width:1280px) {
-    .footer{
+    .footer-sec{
       padding-top: 50px;
       padding-bottom: 50px;
   } 
