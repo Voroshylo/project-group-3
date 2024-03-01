@@ -1,11 +1,11 @@
 .your-order {
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center;
     background-color: #7A3145;
 }
 .order-container {
     margin: 0 auto;
+  
+    padding: 80px 20px;
+    
 }
 
 .conteiner-one {
@@ -15,11 +15,6 @@
 }
 .order-title {
     color: #FBFBFB;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
     font-family: "Inter Tight";
     font-size: 48px;
     font-weight: 600;
@@ -30,6 +25,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 335px;
+    word-wrap: break-word;
 }
 
 .transparent {
@@ -171,39 +167,17 @@
         
     }
     .conteiner-one {
-        width: 640px;
-    }
-
-    .order-title {
-        width: 640px;
-        font-size: 64px;
-        line-height:1;
-        letter-spacing:0.015em;
-        justify-content: flex-start;
-        margin: 0;
-        
-    }
-    .order-text{
-        margin-bottom: 50px;
-        font-size: 16px;
-        line-height:1.25;
-        width: 640px;
         padding: 0px 96px 0px 32px;
     }
     .order-text{
-
+        margin-bottom: 50px;
     }
     .conteiner-two {
         min-width: 628px;
         padding: 50px 100px;
-        justify-content: center;
-        margin-bottom: 25px;
-        margin-left: 70px; ;
-        margin-right: 70px;
         margin: 0px 70px;
         justify-content: center;
         margin-bottom: 25px;
-
     
     }
     .input-form{
@@ -223,20 +197,9 @@
     }
     .your-order-image{
         margin: 0 auto;
-
-        width: 528px;
-    }
-    .order-title-two {
-        margin-top: 50px;
-        font-size: 18px;
-    }
-    .order-contacts-list{
-        font-size: 32px;
-
 }
     .order-contacts-list{
         margin: 0 auto;
-
 }
 }
 
@@ -252,28 +215,6 @@
     }
 
     .conteiner-one {
-
-        width: 751px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 25px; 
-    }
-    .order-title{
-        font-size: 64px;
-        display: block;
-        margin-left: 0%;
-        max-width: 751px;
-        padding-bottom: 0px;
-    }
-    .order-text{
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 50px;
-        margin-right: 438px;
-        width: 742px;
-
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -284,29 +225,17 @@
         margin-bottom: 50px;
         margin-right: 438px;
         max-width: 742px;
-
         width: 100%;
     }
     .social-order-container {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-
-        column-gap: 24px;
-        
-    }
-    .conteiner-two {
-        display: flex;
-        min-width: 529px;
-        padding: 50px 50px;
-        margin: 0%;
-        
-       flex-basis: calc((100% - 24px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
     .conteiner-two {
         min-width: 529px;
         padding: 50px 50px;
-
     }
     .input-form{
         width: 429px;
@@ -314,12 +243,6 @@
     .textarea-form {
         width: 429px;
     }
-
-    .your-order-image{
-        width: 427px;
-    }
-
-
 
     .order-contacts-list{
         margin: 0%;
@@ -329,6 +252,6 @@
         margin:0px ;
         padding: 50px 50px;
         align-items:flex-start;
-
+        
     }
 }
