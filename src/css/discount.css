@@ -1,16 +1,15 @@
 .discount {
-  display:flex;
-  align-items: center;
+  padding: 0 10px;
+}
+.discount-div {
+  padding: 80px 0;
+  width: 355px;
+  display: flex;
   justify-content: center;
-  background-color: aliceblue;
+  margin: 0 auto;
 }
-.container {
-}
-.div-discount {
-  padding: 80px 10px;
-}
-.discount-h {
-      position: absolute;
+.visually-hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -20,82 +19,65 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-.div-p {
-background-color: #576F35;
-border: 1px solid #000;
-border-radius: 12px;
+
 }
 .dis-p {
+font-family: "Inter Tight";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.04; /* 104.167% */
+letter-spacing: -0.015em;
+text-transform: uppercase;
+}
+.span-p {
 color: #FBFBFB;
-font-size: 48px;
-font-weight: 600;
-line-height: 1.04;
-letter-spacing: -0.015em;
-text-transform: uppercase;
-padding: 3px 10px 0;
-}
-.taste-p {
-color: #141414;
-font-size: 48px;
-font-weight: 600;
-line-height: 1.04;
-letter-spacing: -0.015em;
-text-transform: uppercase;
-padding: 0  10px;
+border-radius: 12px;
+background: #576F35;
+display: block;
 }
 
-@media  screen and (min-width: 768px){
+@media screen and (min-width: 768px){
   .discount {
-  }
-.div-discount {
-padding: 100px 16px;
+    padding: 0 16px;
 }
-.div-p {
-  border: none;
+.discount-div {
+  padding: 100px 0;
+  width: 768px;
 }
-  .dis-p {
+.visually-hidden {
+}
+.dis-p {
 font-size: 64px;
-line-height: 70px;
-letter-spacing: -0.96px;
-border: none;
-padding: 8px 16px;
+line-height: 1.09; /* 109.375% */
+letter-spacing: -0.015em;
+width: 704px;
 
-  }
-  .taste-p {
-font-size: 64px;
-line-height: 70px;
-letter-spacing: -0.96px;
-padding: 0 16px;
-  }
 }
-
-@media  screen and (min-width: 1280px) {
+.span-p {
+  display: inherit;
+}
+}
+@media screen and (min-width: 1280px){
   .discount {
-
-  }
-    
-  .div-discount{
-    padding: 100px;
-  }
-  .div-p {
-    width: 808px;
-  }
-    .dis-p {
-font-size: 76px;
-line-height: 80px;
-letter-spacing: -1.14px;
-padding: 0 0 0 13px;
-  }
-  .taste-p {
-font-size: 76px;
-line-height: 80px; /* 105.263% */
-letter-spacing: -1.14px;
-padding: 0;
-  }
-
+    padding: 0 100px;
 }
-
+.discount-div {
+  padding: 100px 0;
+  width: 1280px;
+}
+.visually-hidden {
+}
+.dis-p {
+font-size: 76px;
+line-height: 1.05; /* 105.263% */
+letter-spacing: -0.015em;
+width: 1054px;
+}
+.span-p {
+  display: inline;
+}
+}
 /*mob-menu*/
 .mob-menu {
   max-width: 355px;
