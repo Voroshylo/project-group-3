@@ -124,7 +124,7 @@ padding: 240px 110px 40px 110px;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  
+  margin-bottom: auto;
 }
 .li-menu {
   min-width: 115px;
@@ -132,6 +132,10 @@ padding: 240px 110px 40px 110px;
   border-radius: 12px;
 border: 1px solid rgba(251, 251, 251, 0.40);
 padding: 12px;
+}
+.li-menu.current {
+  background: #FBFBFB;
+  
 }
 .li-nav {
 color: #FBFBFB;
@@ -143,4 +147,23 @@ line-height: 1.28; /* 128.571% */
 letter-spacing: -0.02em;
 display: flex;
 justify-content: center;
+}
+.li-nav.current-nav{
+color: #7A3145;
+}
+.button-shop {
+  min-width: 155px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+background: #FBFBFB;
+margin-bottom: 40px;
+color:#7A3145;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-shop:hover,
+.button-shop:focus {
+  color: rgba(122, 49, 69, 0.70);
 }
