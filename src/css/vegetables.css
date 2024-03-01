@@ -1,5 +1,8 @@
 .vegetables {
     background: #7A3145;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vegetables-container {
@@ -172,5 +175,6 @@
     .vegetables-list-item-link {
         width: 252px;
         height: 216px;
+        margin: 40px 32px 32px 32px;
     }
   }
