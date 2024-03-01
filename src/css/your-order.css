@@ -228,11 +228,12 @@
 /* Desktop */
 @media  screen and (min-width: 1158px) {
     .container {
-        width: 1158px;
+        width: 1158px;        
     }
     .order-container {
         padding-top: 100px;
         padding-bottom: 100px;
+        justify-content: center;
     }
 
     .conteiner-one {
