@@ -8,7 +8,6 @@
 
 .conteiner-one {
     margin-bottom: 20px;
-    min-width: 335px;
     background-color:#7A3145;
 }
 .order-title {
@@ -248,15 +247,30 @@
     }
     .textarea-form {
         width: 429px;
+
     }
 
     .order-contacts-list{
         margin: 0%;
     }
     .conteiner-three {
+        display: block;
         min-width: 529px;
         margin:0px ;
         padding: 50px 50px;
         align-items:flex-start;
     }
+    .order-title-two {
+        margin-top: 50px;
+        margin-bottom: 15px ;
+    }
+    .order-contacts-list {
+        width: 357px; 
+        font-size: 32px;
+    }
+    .order-contacts-lisk-item {
+        font-size: 32px;
+    }
+    
+
 }
