@@ -1,9 +1,15 @@
 .your-order {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #7A3145;
+}
+.order-container {
+    margin: 0 auto;
     background-color: #7A3145;
 }
 .order-container {
     padding: 80px 20px;
-    
 }
 
 .conteiner-one {
@@ -43,8 +49,6 @@
 }
 
 .social-order-container{
-    
-
 }
 .conteiner-two {
     border-radius: 30px;
@@ -165,6 +169,23 @@
         
     }
     .conteiner-one {
+        width: 640px;
+    }
+
+    .order-title {
+        width: 640px;
+        font-size: 64px;
+        line-height:1;
+        letter-spacing:0.015em;
+        justify-content: flex-start;
+        margin: 0;
+        
+    }
+    .order-text{
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height:1.25;
+        width: 640px;
         padding: 0px 96px 0px 32px;
     }
     .order-text{
@@ -173,6 +194,10 @@
     .conteiner-two {
         min-width: 628px;
         padding: 50px 100px;
+        justify-content: center;
+        margin-bottom: 25px;
+        margin-left: 70px; ;
+        margin-right: 70px;n
         margin: 0px 70px;
         justify-content: center;
         margin-bottom: 25px;
