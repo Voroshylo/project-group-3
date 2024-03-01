@@ -1,0 +1,151 @@
+.discount {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.container {
+}
+.div-discount {
+  padding: 80px 10px;
+}
+.discount-h {
+      position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.div-p {
+background-color: #576F35;
+border: 1px solid #000;
+border-radius: 12px;
+}
+.dis-p {
+color: #FBFBFB;
+font-size: 48px;
+font-weight: 600;
+line-height: 1.04;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+padding: 3px 10px 0;
+}
+.taste-p {
+color: #141414;
+font-size: 48px;
+font-weight: 600;
+line-height: 1.04;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+padding: 0  10px;
+}
+
+@media  screen and (min-width: 768px){
+  .discount {
+  }
+.div-discount {
+padding: 100px 16px;
+}
+.div-p {
+  border: none;
+}
+  .dis-p {
+font-size: 64px;
+line-height: 70px;
+letter-spacing: -0.96px;
+border: none;
+padding: 8px 16px;
+
+  }
+  .taste-p {
+font-size: 64px;
+line-height: 70px;
+letter-spacing: -0.96px;
+padding: 0 16px;
+  }
+}
+
+@media  screen and (min-width: 1158px) {
+  .discount {
+
+  }
+    
+  .div-discount{
+    padding: 100px;
+  }
+  .div-p {
+    width: 808px;
+  }
+    .dis-p {
+font-size: 76px;
+line-height: 80px;
+letter-spacing: -1.14px;
+padding: 0 0 0 13px;
+  }
+  .taste-p {
+font-size: 76px;
+line-height: 80px; /* 105.263% */
+letter-spacing: -1.14px;
+padding: 0;
+  }
+
+}
+
+/*mob-menu*/
+.mob-menu {
+  max-width: 355px;
+  background-color: #7A3145;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.div-menu {
+    display: flex;
+  flex-direction: column;
+width: 100%;
+height: 100%;
+padding: 240px 110px 40px 110px;
+}
+.close-menu {
+  width: 32px;
+  height: 32px;
+      position: absolute;
+  top:24px;
+  right: 24px;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+.ul-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  
+}
+.li-menu {
+  min-width: 115px;
+  height: 42px;
+  border-radius: 12px;
+border: 1px solid rgba(251, 251, 251, 0.40);
+padding: 12px;
+}
+.li-nav {
+color: #FBFBFB;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.28; /* 128.571% */
+letter-spacing: -0.02em;
+display: flex;
+justify-content: center;
+}
