@@ -13,6 +13,7 @@
 }
 .order-title {
     color: #FBFBFB;
+    width: 335px;
     font-family: "Inter Tight";
     font-size: 48px;
     font-weight: 600;
@@ -22,8 +23,7 @@
     padding-bottom: 29px;
     margin-left: auto;
     margin-right: auto;
-    width: 335px;
-    word-wrap: break-word;
+    
 }
 
 .transparent {
@@ -167,6 +167,10 @@
     .conteiner-one {
         padding: 0px 96px 0px 32px;
     }
+    .order-title {
+        margin-left: 0px;
+    }
+
     .order-text{
         margin-bottom: 50px;
     }
@@ -217,13 +221,17 @@
         padding-right: 100px;
     }
     .order-title{
-        padding-right: 429px;
+        font-family: "Inter Tight";
+        font-size: 64px;
+        margin-left: 0px;
+        justify-content: left;
+        width: 751px;
     }
     .order-text{
+        font-size: 16px;
         margin-bottom: 50px;
         margin-right: 438px;
-        max-width: 742px;
-        width: 100%;
+        width:  742px;
     }
     .social-order-container {
         display: flex;
