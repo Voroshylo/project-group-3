@@ -1,0 +1,299 @@
+
+
+.footer-sec {
+    padding: 40px 0;
+    background-color: #7a3145;
+  }
+  
+  
+  .footer-cont {
+    padding: 0 21px;
+  }
+  
+  
+  .logo-cont{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 296px;
+  }
+  
+  
+  .footer-svg-text{
+    display: inline-block;
+    margin-bottom: 14px;
+    transition: fill 400ms cubic-bezier(0.2, 0, 0.1, 0.5);
+  }
+  
+  
+  
+  .footer-svg-text:hover,
+  .footer-svg-text:focus{
+    fill:#576F35;
+  }
+  
+  
+  .footer-text {
+    color: #fbfbfb;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 40px;
+  }
+  
+  
+  .footer-nav{
+    margin-bottom: 40px;
+  }
+  
+  
+  .footer-list-link {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  
+  
+  .footer-link {
+    color: #fbfbfb;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.42px;
+    transition: color 400ms cubic-bezier(0.2, 0, 0.1, 0.5);
+  }
+  
+  .footer-link:hover,
+  .footer-link:focus{
+    color: #576F35;
+  }
+  
+  .footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 80px;
+  }
+  
+  
+  .addr-tel {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.21px;
+    transition: color 400ms cubic-bezier(0.2, 0, 0.1, 0.5);
+  }
+  
+  
+  
+  .addr-tel:hover,
+  .addr-tel:focus{
+    color: #576F35;
+  }
+  
+  
+  .addr-text {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.21px;
+  }
+  
+  
+  .bottom-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  
+  .bottom-footer-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+  
+  }
+  
+  .bottom-footer-link {
+    color: rgba(251, 251, 251, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.18px;
+    transition: color 400ms cubic-bezier(0.2, 0, 0.1, 0.5);
+  }
+  
+  .bottom-footer-link:hover, 
+  .bottom-footer-link:focus{
+    color: #576F35;
+  } 
+  
+  .bottom-slash {
+    color: rgba(251, 251, 251, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.18px;
+  }
+  
+  
+  
+  
+  /*=====================MIN-WIDTH: 768PX==========================*/
+  
+  @media screen and (min-width: 768px){
+    .footer-sec{
+      padding-top: 32px;
+      padding-bottom: 32px;
+  }
+  
+  
+    .footer-cont{
+      padding: 0 32px;
+  } 
+  
+    .foot-div-cont{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 224px;
+      row-gap: 100px;
+  }
+  
+  
+    .logo-cont{
+      display: flex;
+      max-width: 265px;
+      gap: 8px;
+      row-gap: 17px;
+  }
+  
+  
+    .footer-svg{width: 18px;
+      height: 18px;
+  }
+  
+  
+    .footer-svg-text{
+      width: 168px;
+      height: 25px;
+      margin-bottom: 0;
+  }
+  
+    .logo-link{
+      display: flex;
+  }
+  
+  
+    .footer-text{
+      font-size: 16px;
+      line-height: 1.25; 
+      margin-bottom: 0;
+  }
+  
+  
+    .nav-div{
+      justify-content: flex-start;
+  }
+  
+  
+    .footer-nav {
+      margin-bottom: 64px;
+  }
+  
+  
+    .footer-list-link {
+      gap: 25px;
+      }
+  
+  
+    .footer-link{
+      font-size: 32px;
+      line-height: 1.0;
+      letter-spacing: -0.48px;
+  }
+  
+  
+    .footer-address {
+      gap: 25px;
+      margin-bottom: 0;
+  }
+  
+  
+    .addr-tel{
+      font-size: 18px;
+      line-height: 1.1; 
+      letter-spacing: -0.27px;
+  }
+  
+  
+    .addr-text{
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.27px;
+  }
+  
+  
+    .bottom-footer{
+      display: contents;
+  }
+  
+  
+    .bottom-footer-link{
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.27px;
+  }
+  
+  
+    .bottom-slash{
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.27px;
+  }
+  
+  }
+  
+  /*=====================MIN-WIDTH: 1280PX=========================*/
+  
+  
+  @media screen and (min-width:1280px) {
+    .footer-sec{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  } 
+  
+    .footer-cont{
+      padding: 0 100px;
+  }  
+  
+    .foot-div-cont{
+      display: flex;
+      gap: 125px;
+  }
+  
+  
+    .logo-cont{
+    gap: 3px;
+    row-gap: 22px;
+  }
+  
+  
+    .nav-div{
+    display: flex;
+    gap: 121px;
+  }
+  
+    .footer-nav {
+  margin-bottom: 0;
+  }
+  
+  }
