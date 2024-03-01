@@ -128,10 +128,6 @@
 
   .review-list-item:nth-child(2) {
     display: inline-block;
-    /* max-width: 100%; */
-    border-radius: 24px;
-    border: 1px solid rgba(122, 49, 69, 0.3);
-    background: #fbfbfb;
   }
 
   .review-section-div-text {
@@ -145,12 +141,8 @@
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1280px;
     padding: 0 100px;
-  }
-
-  .review {
-    padding: 100px 0;
   }
 
   .review-list {
@@ -158,15 +150,12 @@
   }
 
   .review-list-item {
-    width: calc((100% - 50px) / 3);
+    /* width: 100%; */
+    /* min-width: 343px; */
+    width: calc((100% - 25px * 2) / 3);
   }
 
   .review-list-item:nth-child(3) {
     display: inline-block;
-    max-width: 100%;
-    border-radius: 24px;
-    border: 1px solid rgba(122, 49, 69, 0.3);
-    background: #fbfbfb;
-    padding: 20px 16px;
   }
 }
