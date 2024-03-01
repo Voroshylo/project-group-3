@@ -3,9 +3,7 @@
 }
 .order-container {
     margin: 0 auto;
-  
     padding: 80px 20px;
-    
 }
 
 .conteiner-one {
@@ -252,6 +250,5 @@
         margin:0px ;
         padding: 50px 50px;
         align-items:flex-start;
-        
     }
 }
