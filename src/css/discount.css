@@ -85,15 +85,18 @@ width: 1054px;
   position: absolute;
   top:24px;
   right: 24px;
-  border-radius: 50%;
   display: flex;
   margin: 0 auto;
+  background-color: transparent;
+}
+.icon-close {
+  fill: aqua;
 }
 .menu {
   background-color: #7A3145;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 375px;
   height: 100%;
   position: fixed;
   visibility: hidden;
@@ -151,9 +154,14 @@ justify-content: center;
 .li-nav.current-nav{
 color: #7A3145;
 }
+.li-menu:hover {
+  background-color: #FBFBFB;
+  color: #7A3145;
+}
+
 .button-shop {
   min-width: 155px;
-  height: 50px;
+  min-height: 50px;
   border-radius: 30px;
   border: none;
 background: #FBFBFB;
@@ -162,8 +170,54 @@ color:#7A3145;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+font-family: "Inter Tight";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.28; /* 128.571% */
+letter-spacing: -0.015em;
+text-transform: uppercase;
 }
 .button-shop:hover,
 .button-shop:focus {
   color: rgba(122, 49, 69, 0.70);
+}
+@media screen and (min-width: 768px) {
+  .menu{
+    left: auto;
+    right: 0;
+  }
+.close-menu{
+  width: 40px;
+  height: 40px;
+}
+.li-menu {
+  min-width: 114px;
+  height: 44px;
+  
+}
+.li-nav {
+  font-family: "Inter Tight";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25; /* 125% */
+letter-spacing: -0.02em;
+}
+.button-shop {
+  min-width: 157px;
+  min-height: 52px;
+font-family: "Inter Tight";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.11; /* 111.111% */
+letter-spacing: -0.015em;
+text-transform: uppercase;
+}
+}
+@media screen and (min-width: 1280px) {
+  .menu {
+    display: none;
+  }
 }
