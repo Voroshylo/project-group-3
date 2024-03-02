@@ -1,5 +1,6 @@
 .discount {
   padding: 0 10px;
+margin: 0 auto;
 }
 .discount-div {
   padding: 80px 0;
@@ -35,6 +36,8 @@ color: #FBFBFB;
 border-radius: 12px;
 background: #576F35;
 display: block;
+margin: 0 -10px;
+    padding: 0 10px;
 }
 
 @media screen and (min-width: 768px){
@@ -56,6 +59,8 @@ width: 704px;
 }
 .span-p {
   display: inherit;
+      margin: 0 -16px;
+    padding: 0 16px;
 }
 }
 @media screen and (min-width: 1280px){
@@ -76,6 +81,8 @@ width: 1054px;
 }
 .span-p {
   display: inline;
+      margin: 0 -13px;
+    padding: 0 13px;
 }
 }
 /*mob-menu*/
@@ -88,16 +95,14 @@ width: 1054px;
   border-radius: 50%;
   display: flex;
   margin: 0 auto;
+  background-color: black;
+  border: none;
 
-  background-color: transparent;
-  border-radius: none;
   cursor: pointer;
   align-items: center;
   justify-content: center;
 }
 .icon-close {
-  fill: aqua;
-
 }
 .menu {
   background-color: #7A3145;
@@ -142,14 +147,16 @@ padding: 240px 110px 40px 110px;
   border-radius: 12px;
 border: 1px solid rgba(251, 251, 251, 0.40);
 padding: 12px;
+color: #FBFBFB;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-menu.current {
   background: #FBFBFB;
   border: none;
-  
+  color: #7A3145;
 }
 .li-nav {
-color: #FBFBFB;
 text-align: center;
 font-size: 14px;
 font-style: normal;
@@ -159,9 +166,14 @@ letter-spacing: -0.02em;
 display: flex;
 justify-content: center;
 }
-.li-nav.current-nav{
-color: #7A3145;
+
+
+.li-menu:hover,
+.li-menu:focus {
+  background-color: #FBFBFB;
+  color: #7A3145;
 }
+
 .button-shop {
   min-width: 155px;
   height: 50px;
@@ -189,7 +201,7 @@ color:#7A3145;
   height: 40px;
 }
 .li-menu {
-  min-width: 114px;
+  min-width: 123px;
   height: 44px;
   
 }
