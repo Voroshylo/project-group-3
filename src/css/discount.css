@@ -167,3 +167,43 @@ color:#7A3145;
 .button-shop:focus {
   color: rgba(122, 49, 69, 0.70);
 }
+
+@media screen and (min-width: 768px) {
+  .menu{
+    left: auto;
+    right: 0;
+  }
+.close-menu{
+  width: 40px;
+  height: 40px;
+}
+.li-menu {
+  min-width: 114px;
+  height: 44px;
+  
+}
+.li-nav {
+  font-family: "Inter Tight";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25; /* 125% */
+letter-spacing: -0.02em;
+}
+.button-shop {
+  min-width: 157px;
+  min-height: 52px;
+font-family: "Inter Tight";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.11; /* 111.111% */
+letter-spacing: -0.015em;
+text-transform: uppercase;
+}
+}
+@media screen and (min-width: 1280px) {
+  .menu {
+    display: none;
+  }
+}
