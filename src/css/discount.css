@@ -88,6 +88,10 @@ width: 1054px;
   display: flex;
   margin: 0 auto;
   background-color: transparent;
+  border-radius: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 .icon-close {
   fill: aqua;
@@ -138,6 +142,7 @@ padding: 12px;
 }
 .li-menu.current {
   background: #FBFBFB;
+  border: none;
   
 }
 .li-nav {
