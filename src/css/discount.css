@@ -92,15 +92,13 @@ width: 1054px;
   position: absolute;
   top:24px;
   right: 24px;
-  border-radius: 50%;
   display: flex;
   margin: 0 auto;
-  background-color: black;
   border: none;
-
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  background: transparent;
 }
 .icon-close {
 }
@@ -108,7 +106,7 @@ width: 1054px;
   background-color: #7A3145;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 375px;
   height: 100%;
   position: fixed;
   visibility: hidden;
@@ -195,6 +193,7 @@ color:#7A3145;
   .menu{
     left: auto;
     right: 0;
+    width: 351px;
   }
 .close-menu{
   width: 40px;
