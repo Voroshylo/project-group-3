@@ -154,6 +154,7 @@ justify-content: center;
 .li-nav.current-nav{
 color: #7A3145;
 }
+
 .li-menu:hover {
   background-color: #FBFBFB;
   color: #7A3145;
@@ -162,6 +163,11 @@ color: #7A3145;
 .button-shop {
   min-width: 155px;
   min-height: 50px;
+
+.button-shop {
+  min-width: 155px;
+  height: 50px;
+
   border-radius: 30px;
   border: none;
 background: #FBFBFB;
@@ -170,6 +176,7 @@ color:#7A3145;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 font-family: "Inter Tight";
 font-size: 14px;
 font-style: normal;
@@ -177,11 +184,13 @@ font-weight: 600;
 line-height: 1.28; /* 128.571% */
 letter-spacing: -0.015em;
 text-transform: uppercase;
+
 }
 .button-shop:hover,
 .button-shop:focus {
   color: rgba(122, 49, 69, 0.70);
 }
+
 @media screen and (min-width: 768px) {
   .menu{
     left: auto;
@@ -222,3 +231,4 @@ text-transform: uppercase;
   }
   
 }
+
