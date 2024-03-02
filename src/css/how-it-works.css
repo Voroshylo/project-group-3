@@ -1,6 +1,8 @@
+
 .how-it-works {
     background: #576F35;
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -15,12 +17,16 @@
     overflow: hidden;
 }
 
+
 .container-how-it {
     padding: 0;
+
+
 }
 
 .section-pictures {
     background: #7A3145;
+
     padding: 40px 20px;
     margin: 0 auto;
 }
@@ -31,6 +37,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
 }
 
 .picture-woman {
@@ -98,7 +105,7 @@
     line-height: 125%;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
-    width: 211px;
+
 }
 
 .step-text {
@@ -135,6 +142,7 @@
 /*=================*/
 @media screen and (min-width: 768px) {
     .section-pictures {
+
         padding: 100px 64px;
     }
 
@@ -160,10 +168,12 @@
 
     .text {
         width: 325px;
+
     }
 }
 
 @media screen and (min-width: 1280px) {
+
     .how-it-works {
         background: linear-gradient(to right, #7A3145 50%, #576F35 50%);
     }
@@ -189,4 +199,5 @@
         padding: 0;
         margin: 0;
     }
+
 }
