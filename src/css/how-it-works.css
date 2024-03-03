@@ -198,7 +198,7 @@
     }
 
     .text {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -230,5 +230,9 @@
 
     .steps {
         width: 450px;
+    }
+
+    .text {
+        font-size: 12px;
     }
 }
