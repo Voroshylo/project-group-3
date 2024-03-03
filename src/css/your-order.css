@@ -104,12 +104,13 @@
 .form-submit-btn {
     color: #FBFBFB;
     font-weight: 700;
-    letter-spacing: -0.21px;
+    letter-spacing: 0.015em;
     text-transform: uppercase;
     padding: 16px 0;
     width: 100%;
     border-radius: 30px;
     background: #576F35;
+    border: none;
 }
 
 .form-submit-btn:hover,
