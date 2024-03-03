@@ -1,0 +1,311 @@
+.your-order {
+    background-color: #7A3145;
+}
+.order-container {
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.conteiner-one {
+    margin-bottom: 20px;
+    background-color:#7A3145;
+}
+.order-title {
+    color: #FBFBFB;
+    width: 335px;
+    font-family: "Inter Tight";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.04; /* 104.167% */
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    padding-bottom: 29px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transparent {
+    display: inline-block;
+    color: rgba(251, 251, 251, 0.30);
+}
+
+.order-text {
+    color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2; /* 128.571% */
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+}
+
+.social-order-container{
+}
+.conteiner-two {
+    border-radius: 30px;
+    background: #FBFBFB;
+    display: inline-flex;
+    padding: 80px 20px;
+    flex-direction: column;
+    align-items: flex-star;
+    margin-bottom: 20px;
+    width: 335px;
+}
+
+.purple {
+    color: #7A3145;
+}
+.green {
+    color: #576F35;
+}
+
+.conteiner-two-title {
+    color: #141414;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.order-form {
+}
+
+.input-form::placeholder {
+    color: #141414;
+}
+.textarea-form::placeholder {
+    color: #141414;
+}
+
+.input-form {
+    padding: 14px 16px;
+    font-size: 14px;
+    border: 1px solid rgba(20, 20, 20, 0.20);
+    border-radius: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.textarea-form {
+    min-width: 295px;
+    font-size: 14px;
+    color: #141414;
+    border-radius: 15px;
+    border: 1px solid rgba(20, 20, 20, 0.20);
+    padding: 14px 0px 59px 16px;
+    margin-bottom: 20px;
+    resize: none;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.form-submit-btn {
+    color: #FBFBFB;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    padding: 16px 0;
+    width: 100%;
+    border-radius: 30px;
+    background: #576F35;
+    border: none;
+}
+
+.form-submit-btn:hover,
+.form-submit-btn:focus {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.conteiner-three {
+    width: 335px;
+    border-radius: 30px;
+    background: #576F35;
+    padding: 40px 20px;
+}
+
+.order-gradient {
+    display: block;
+    position: relative;
+    line-height: 0;
+}
+.order-gradient:after {
+    border-radius: 16px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:transparent ;
+    background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), url(<path-to-image>), lightgray -264.941px -20px / 223.229% 114.49% no-repeat;
+} 
+.your-order-image {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+} 
+
+.order-title-two {
+    color: rgba(251, 251, 251, 0.50);
+    font-size: 14px;
+    line-height: 1.2; /* 128.571% */
+    letter-spacing: 0.015em;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.order-contacts-list {
+    align-items: flex-start;
+    border-radius: 30px;
+    background: #576F35;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.order-contacts-lisk-item {
+    color: #FBFBFB;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.09;
+    letter-spacing: -0.36px;
+}
+.order-contacts-link {
+}
+
+/* Tablet */
+@media  screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+}
+
+    .order-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .conteiner-one {
+        padding: 0px 96px 0px 32px;
+    }
+    .order-title {
+        margin-left: 0px;
+    }  
+    .transparent {
+        display: inline;
+    }
+    .order-text{
+        margin-bottom: 50px;
+    }
+    
+    .conteiner-two {
+        min-width: 628px;
+        padding: 50px 100px;
+        margin: 0px 70px;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .input-form{
+        width: 428px;
+    }
+    .textarea-form {
+        width: 428px;
+    }
+    .conteiner-three {
+        display: flex;
+        flex-direction: column;
+        min-width: 628px;
+        margin: 0px 70px; 
+        padding: 50px 50px;
+        justify-content: center;
+    }
+    .your-order-image{
+        margin: 0 auto;
+        width: 528px;
+    }
+    .order-contacts-list{
+        margin: 0;
+        width: 492px;
+    }
+    .order-title-two {
+        width: 258px;
+    }
+    .order-contacts-link {
+        font-size: 32;
+    }
+
+}
+
+/* Desktop */
+@media  screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;        
+    }
+    .order-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+    }
+
+    .conteiner-one {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .order-title{
+        font-family: "Inter Tight";
+        font-size: 64px;
+        margin-left: 0px;
+        justify-content: left;
+        width: 751px;
+    }
+    .order-text{
+        font-size: 16px;
+        margin-bottom: 50px;
+        margin-right: 438px;
+        width:  742px;
+    }
+    .social-order-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex-basis: calc((100% - 24px) / 2);
+    }
+    .conteiner-two {
+        min-width: 529px;
+        padding: 0px 50px;
+        margin: 0px  0px 0px 100px;
+    }
+    .input-form{
+        width: 429px;
+    }
+    .textarea-form {
+        width: 429px;
+    }
+    .social-order-container {
+        display: flex;
+        column-gap: 24px;
+    }
+    .order-contacts-list{
+        margin: 0%;
+    }
+    .conteiner-three {
+        display: block;
+        min-width: 529px;
+        margin:0px ;
+        padding: 50px 50px;
+        align-items:flex-start;
+    }
+    .order-title-two {
+        margin-top: 50px;
+        margin-bottom: 15px ;
+    }
+    .order-contacts-list {
+        width: 357px; 
+        font-size: 32px;
+    }
+    .order-contacts-lisk-item {
+        font-size: 32px;
+    }
+
+}
