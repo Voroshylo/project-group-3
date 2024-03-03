@@ -1,5 +1,21 @@
+.footer-sec {
+  padding: 40px 0;
+  width: 100%;}
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*====================================MIN-WIDTH: 375PX======================================*/
+@media screen and (min-width: 375px) {
 .footer-sec {
     padding: 40px 0;
     background-color: #7a3145;
@@ -161,6 +177,9 @@
     line-height: 1.16; 
     letter-spacing: -0.18px; 
   }
+
+}
+
   
   
   
