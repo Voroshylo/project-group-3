@@ -18,12 +18,6 @@
 }
 
 
-.container-how-it {
-    /* padding: 0;*/
-
-
-}
-
 .section-pictures {
     display: flex;
     justify-content: center;
@@ -37,10 +31,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*background-color: #576F35;*/
     padding: 80px 20px;
     margin: 0 auto;
 
+}
+
+.order-gradient {
+    display: block;
+    position: absolute;
+    line-height: 0;
+}
+
+.order-gradient::after {
+    border-radius: 30px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient (rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
 }
 
 .picture-woman {
@@ -75,6 +87,7 @@
 }
 
 .steps {
+    counter-reset: section;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -84,16 +97,6 @@
     margin-bottom: 20px;
 }
 
-/*.list {
-    display: flex;
-    max-width: 335px;
-    height: 76px;
-    width: 335px;
-}
-
-.list:not(:last-child) {
-    margin-bottom: 20px;
-}*/
 
 .list-text {
     display: flex;
@@ -101,10 +104,21 @@
     background-color: #FBFBFB;
     align-items: center;
     padding: 12px 24px;
-    /*margin-bottom: 20px;*/
+    height: 76px;
 }
 
-
+.list-text::before {
+    counter-increment: section;
+    content: counter(section);
+    text-align: center;
+    display: inline-block;
+    color: #000;
+    border-radius: 50%;
+    position: absolute;
+    left: -65px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 .text {
@@ -114,7 +128,6 @@
     line-height: 125%;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
-
 }
 
 .step-text {
@@ -148,6 +161,8 @@
     margin-right: 24px;
 }
 
+
+
 /*=================*/
 @media screen and (min-width: 768px) {
     .how-it-works {
@@ -175,6 +190,10 @@
         width: 450px;
     }
 
+    .steps {
+        width: 450px;
+    }
+
     .text {
         font-size: 16px;
     }
@@ -183,6 +202,7 @@
 @media screen and (min-width: 1280px) {
     .how-it-works {
         display: flex;
+        justify-content: center;
     }
 
     .section-pictures {
@@ -201,8 +221,11 @@
     .container-how-it {
         display: flex;
         justify-content: center;
-        align-items: center;
         padding: 0;
         margin: 0;
+    }
+
+    .steps {
+        width: 450px;
     }
 }
