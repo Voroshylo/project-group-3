@@ -1,6 +1,13 @@
 .how-it-works {
     background: #576F35;
+}
 
+.container-how-it {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
 }
 
 
@@ -52,7 +59,7 @@
     top: 0;
     left: 0;
     background: transparent;
-    background-image: linear-gradient (rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
+    background: linear-gradient (rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
 }
 
 .picture-woman {
@@ -167,9 +174,19 @@
 
 
 /*=================*/
+
+
 @media screen and (min-width: 768px) {
     .how-it-works {
         background: #576F35;
+    }
+
+    .container-how-it {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
     }
 
     .section-pictures {
@@ -198,7 +215,7 @@
     }
 
     .text {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -223,12 +240,17 @@
 
     .container-how-it {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .steps {
         width: 450px;
+    }
+
+    .text {
+        font-size: 16px;
     }
 }
