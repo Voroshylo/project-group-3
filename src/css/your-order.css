@@ -38,6 +38,7 @@
     font-weight: 500;
     line-height: 1.2; /* 128.571% */
     text-align: left;
+    margin-bottom: 40px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 -webkit-text-stroke-width: 1;
 -webkit-text-stroke-color: #000;
@@ -193,19 +194,24 @@
         width: 768px;
 }
 .your-order {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
 }
     .order-container {
-        padding-top: 100px;
-        padding-bottom: 100px;
+    
+    }
+
+    .order-title {
+        margin-left: 32px;
     }
     .order-text {
         font-size: 16px;
         font-weight: 500;
         margin-right: 26px;
-        margin-left: 32px;
         width:  640px;
+        line-height: 1.25em;
+        text-shadow: none;
+        margin-left: 32px;
+        margin-bottom: 50px;
     }
     
     .conteiner-two-title {
@@ -218,16 +224,10 @@
     .conteiner-one {
         padding: 0px;
     }
-    .order-title {
-        margin-left: 0px;
-    }  
     .transparent {
         display: inline;
     }
-    .order-text{
-        margin-bottom: 50px;
-    }
-    
+
     .conteiner-two {
         min-width: 628px;
         padding: 50px 100px;
@@ -290,12 +290,14 @@
         margin-left: 0px;
         justify-content: left;
         width: 751px;
+    
     }
     .order-text{
         font-size: 16px;
         margin-bottom: 50px;
-        margin-right: 438px;
+        margin-left: 0px;
         width:  742px;
+        text-shadow: none;
     }
     .social-order-container {
         display: flex;
