@@ -124,11 +124,12 @@
   .hero-text-container {
     width: 630px;
     padding-top: 238px;
-    padding-right: 28px;
     padding-bottom: 50px;
   }
   .hero-title {
     margin-bottom: 128px;
+    padding-right: 28px;
+    max-width: 502px;
   }
   .hero-text {
     width: 472px;
