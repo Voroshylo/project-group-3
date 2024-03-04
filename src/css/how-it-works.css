@@ -24,6 +24,7 @@
     padding: 40px 20px;
 
 
+
 }
 
 .section-desk {
@@ -44,6 +45,7 @@
 
 .pictures-img:after {
     border-radius: 30px;
+
     content: "";
     display: block;
     width: 100%;
@@ -54,7 +56,9 @@
     background: transparent;
     background-image: linear-gradient(rgba(20, 20, 20, 0.3),
             rgba(20, 20, 20, 0.3));
+
     pointer-events: none;
+
 }
 
 .headline {
@@ -227,6 +231,7 @@
     .section-pictures {
         background-color: #7A3145;
         padding: 100px;
+
         max-width: 630px;
         margin: -100px 0 -100px -100px;
     }
@@ -236,6 +241,7 @@
         padding: 0px 100px 0;
         margin-bottom: -100px;
         margin-right: -100px;
+
     }
 
     .headline-about {
