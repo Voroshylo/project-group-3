@@ -1,6 +1,13 @@
 .how-it-works {
     background: #576F35;
+}
 
+.container-how-it {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
 }
 
 
@@ -23,7 +30,6 @@
     justify-content: center;
     background: #7A3145;
     padding: 40px 20px;
-    margin: 0 auto;
 }
 
 .section-desk {
@@ -32,18 +38,17 @@
     justify-content: center;
     align-items: center;
     padding: 80px 20px;
-    margin: 0 auto;
-
 }
 
-.order-gradient {
-    display: block;
-    position: absolute;
+.picture-woman {
+    border-radius: 30px;
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
     line-height: 0;
 }
 
-.order-gradient::after {
-    border-radius: 30px;
+.picture-woman::after {
     content: "";
     display: block;
     width: 100%;
@@ -52,12 +57,8 @@
     top: 0;
     left: 0;
     background: transparent;
-    background-image: linear-gradient (rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
-}
-
-.picture-woman {
-    border-radius: 30px;
-    max-width: 100%;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+            rgba(20, 20, 20, 0.3));
 }
 
 .headline {
@@ -167,9 +168,17 @@
 
 
 /*=================*/
+
+
 @media screen and (min-width: 768px) {
     .how-it-works {
         background: #576F35;
+    }
+
+    .container-how-it {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .section-pictures {
@@ -198,7 +207,7 @@
     }
 
     .text {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -211,9 +220,11 @@
     .section-pictures {
         background-color: #7A3145;
         padding: 100px;
+        width: 630px;
     }
 
     .section-desk {
+        width: 650px;
         padding: 100px 100px 160px;
     }
 
@@ -223,12 +234,15 @@
 
     .container-how-it {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        padding: 0;
-        margin: 0;
     }
 
     .steps {
         width: 450px;
+    }
+
+    .text {
+        font-size: 16px;
     }
 }
