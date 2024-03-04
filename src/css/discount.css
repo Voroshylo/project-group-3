@@ -132,7 +132,7 @@ padding: 240px 110px 40px 110px;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-bottom: auto;
+  
 }
 .li-menu {
   min-width: 115px;
@@ -172,9 +172,12 @@ justify-content: center;
   height: 50px;
   border-radius: 30px;
   border: none;
-background: #FBFBFB;
+background: #7A3145;
 margin-bottom: 40px;
-color:#7A3145;
+margin-top: auto;
+color:#FBFBFB;
+border-radius: 30px;
+border: 1px solid rgba(251, 251, 251, 0.20);
   cursor: pointer;
 font-family: "Inter Tight";
 font-size: 14px;
@@ -189,6 +192,7 @@ text-transform: uppercase;
 .button-shop:hover,
 .button-shop:focus {
   color: rgba(122, 49, 69, 0.70);
+  background-color: #FBFBFB;
 }
 
 @media screen and (min-width: 768px) {
