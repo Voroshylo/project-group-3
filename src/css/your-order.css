@@ -26,7 +26,7 @@
     margin-right: auto;
 }
 
-.transparent {
+.transparent-text {
     display: inline-block;
     color: rgba(251, 251, 251, 0.30);
 }
@@ -80,9 +80,21 @@
 
 .input-form::placeholder {
     color: #141414;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .textarea-form::placeholder {
     color: #141414;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .input-form {
@@ -107,6 +119,8 @@
 }
 .form-submit-btn {
     color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.015em;
     text-transform: uppercase;
@@ -152,8 +166,6 @@
         rgba(20, 20, 20, 0.3));
     pointer-events: none;
 } 
-    /* background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), */
-    /* url(<./.your-order-image>), lightgray -264.941px -20px / 223.229% 114.49% no-repeat; */
 
 .your-order-image {
     width: 100%;
@@ -163,7 +175,9 @@
 
 .order-title-two {
     color: rgba(251, 251, 251, 0.50);
+    font-family: "Inter Tight";
     font-size: 14px;
+    font-weight: 600;
     line-height: 1.2; /* 128.571% */
     letter-spacing: 0.015em;
     align-items: flex-start;
