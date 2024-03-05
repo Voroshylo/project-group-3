@@ -158,8 +158,8 @@
   font-family: "Inter Tight";
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.16; 
-  letter-spacing: -0.18px; 
+  line-height: 1.17; 
+  letter-spacing: -0.18px;
 }
 
 /*====================================MIN-WIDTH: 375PX======================================*/
@@ -288,6 +288,10 @@
       gap: 284px;
   }
 
+  .bottom-footer-ul{
+    margin-right: 0;
+  }
+
   
     .bottom-footer-link{
       font-size: 18px;
@@ -304,6 +308,9 @@
 
   .bottom-footer-p{ 
     display: contents;
+    font-size: 18px;
+    line-height: 1.1; 
+    letter-spacing: -0.27px;
   }
   
   
