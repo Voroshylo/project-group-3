@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Harvest</title>
     
-    <link rel="stylesheet" href="/project-group-3/assets/index-010fd5d5.css">
+    <link rel="stylesheet" href="/project-group-3/assets/index-18fd769c.css">
   </head>
   <body>
     <header class="header">
@@ -44,7 +44,7 @@
         <li><a class="nav-link" href="#vegetables">Vegetables</a></li>
         <li><a class="nav-link" href="#review">Reviews</a></li>
       </ul>
-      <a href="#formlink" class="btn-shop" data-menu-close> Shop now </a>
+      <a href="#order" class="btn-shop" data-menu-close> Shop now </a>
     </nav>
     <div class="btn-menu-container">
       <button class="btn-menu" type="button" data-menu-open>
@@ -147,17 +147,17 @@
 </section>
 
 <!--mob-menu-->
-<div class="menu">
+<div class="menu is-open">
   <div class="div-menu">
     <button class="close-menu" type="button">
-      <svg class="icon-close" widht="32" height="32">
-        <use href="../img/sprite.svg#icon-x-max"></use>
+      <svg class="icon-close" width="32" height="32">
+        <use href="/project-group-3/assets/sprite-dedd973b.svg#icon-x-max"></use>
       </svg>
     </button>
     <nav class="nav-mob-menu">
       <ul class="ul-menu">
         <li class="li-menu">
-          <a class="li-nav" href="#how-it-works">How It Works</a>
+          <a class="li-nav" href="#how-it-work">How It Works</a>
         </li>
 
         <li class="li-menu">
@@ -169,7 +169,9 @@
         </li>
       </ul>
     </nav>
-    <button class="button-shop" type="button">Shop now</button>
+    <div class="button-shop-div">
+      <a href="#order" class="button-shop" type="button">Shop now</a>
+    </div>
   </div>
 </div>
 
@@ -383,50 +385,49 @@
 </section>
     </main>
 
-    
-<footer class="footer-sec">
-    <div class="container foot-div-cont">
-
-      <div class="logo-cont">
-        <svg class="footer-svg" width="16" height="16" fill="#FBFBFB">
-          <use href="../img/sprite.svg#icon-logo"></use>
-        </svg>
+    <footer class="footer-sec">
+  <div class="container foot-div-cont">
+    <div class="logo-cont">
+      <svg class="footer-svg" width="16" height="16" fill="#FBFBFB">
+        <use href="../img/sprite.svg#icon-logo"></use>
+      </svg>
       <a class="logo-link" href="">
         <svg class="footer-svg-text" width="156" height="22" fill="#FBFBFB">
           <use href="../img/sprite.svg#icon-GreenHarvest"></use>
         </svg>
       </a>
-    <p class="footer-text">
-      Whether you're looking for a healthy snack or a thoughtful gift, our
-      fruit baskets are the perfect choice.
-    </p>
-  </div>
+      <p class="footer-text">
+        Whether you're looking for a healthy snack or a thoughtful gift, our
+        fruit baskets are the perfect choice.
+      </p>
+    </div>
 
-<div class="nav-div">
-  <nav class="footer-nav">
-      <ul class="footer-list-link">
-        <li class="footer-list-link-li">
-          <a class="footer-link" href="#how-it-work">how it works</a>
-        </li>
-        <li class="footer-list-link-li">
-          <a class="footer-link" href="#vegetables">vegetables</a>
-        </li>
-        <li class="footer-list-link-li">
-          <a class="footer-link" href="#review">reviews</a>
-        </li>
-      </ul>
-    </nav>
-  
+    <div class="nav-div">
+      <nav class="footer-nav">
+        <ul class="footer-list-link">
+          <li class="footer-list-link-li">
+            <a class="footer-link" href="#how-it-work">how it works</a>
+          </li>
+          <li class="footer-list-link-li">
+            <a class="footer-link" href="#vegetables">vegetables</a>
+          </li>
+          <li class="footer-list-link-li">
+            <a class="footer-link" href="#review">reviews</a>
+          </li>
+        </ul>
+      </nav>
       <address class="footer-address">
         <a class="addr-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
-        <p class="addr-text">1678 S. Pioneer Road Salt<br> Lake City UT 84104</p>
+        <p class="addr-text">
+          1678 S. Pioneer Road Salt<br />
+          Lake City UT 84104
+        </p>
       </address>
     </div>
 
-
-  <div class="bottom-footer">
-    <ul class="bottom-footer-ul">
-      <li class="bottom-footer-li">
+    <div class="bottom-footer">
+      <ul class="bottom-footer-ul">
+        <li class="bottom-footer-li">
           <a class="bottom-footer-link" href="">Privacy Policy</a>
         </li>
         <li class="bottom-footer-li">
@@ -435,12 +436,11 @@
         <li class="bottom-footer-li">
           <a class="bottom-footer-link" href="">Cookie settings</a>
         </li>
-    </ul>
-    <p class="bottom-footer-p">©Green Harvest 2023</p>
+      </ul>
+      <p class="bottom-footer-p">©Green Harvest 2023</p>
+    </div>
   </div>
-</div>
 </footer>
-
 
   </body>
 </html>
