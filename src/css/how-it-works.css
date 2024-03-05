@@ -98,6 +98,7 @@
 
 .list-text {
     display: flex;
+    position: relative;
     border-radius: 15px;
     background-color: #FBFBFB;
     align-items: center;
@@ -114,9 +115,14 @@
     color: #000;
     border-radius: 50%;
     position: absolute;
-    left: -65px;
+    left: 45px;
     top: 50%;
     transform: translateY(-50%);
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.02em;
 }
 
 
@@ -145,11 +151,6 @@
 }
 
 .figures-number {
-    color: #FBFBFB;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: -0.4px;
     display: inline-flex;
     justify-content: center;
     align-items: center;

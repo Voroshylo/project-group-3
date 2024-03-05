@@ -47,6 +47,14 @@
   overflow: hidden;
 }
 
+.review-list-item:nth-child(2) {
+  display: none;
+}
+
+.review-list-item:nth-child(3) {
+  display: none;
+}
+
 .review-section-img {
   display: flex;
   margin: 0 auto;
