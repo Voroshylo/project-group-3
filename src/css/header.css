@@ -1,42 +1,4 @@
-body {
-     font-family: "Roboto", sans-serif;
-     color: #434455;
-     background-color: #FFF ;
-}
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
-ul,ol {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul, ol {
-   list-style: none; 
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.container {
-    padding: 0 16px;
-    margin-left: 0;
-    margin-right: 0;
-   /* width: 1158px;*/
-    width: 320px;
-    margin: 0 auto;
-}
-
-/*===== end global ========================*/
 /*============== header ==================*/
 
 
