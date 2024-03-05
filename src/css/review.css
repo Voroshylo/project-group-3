@@ -61,6 +61,7 @@
   justify-content: center;
   margin-bottom: 24px;
   transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  border-radius: 50%;
 }
 
 .review-list-item:hover .review-section-img,
