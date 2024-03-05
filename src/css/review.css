@@ -44,14 +44,7 @@
   background: #fbfbfb;
   padding: 20px 16px;
   min-height: 238px;
-}
-
-.review-list-item:nth-child(2) {
-  display: none;
-}
-
-.review-list-item:nth-child(3) {
-  display: none;
+  overflow: hidden;
 }
 
 .review-section-img {
@@ -59,6 +52,21 @@
   margin: 0 auto;
   justify-content: center;
   margin-bottom: 24px;
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.review-list-item:hover .review-section-img,
+.review-list-item:focus .review-section-img {
+  transform: scale(1.15);
+}
+
+.review-section-img img {
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.review-list-item:hover .review-section-img img,
+.review-list-item:focus .review-section-img img {
+  transform: scale(1.15);
 }
 
 .review-title-text-div {
