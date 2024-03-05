@@ -103,14 +103,15 @@
     margin-bottom: 15px;
     width: 100%;
 }
-.input-form:focus{
-    border: 1px solid #E74A3B;
+.input-form:focus,
+.input-form:hover {
+    border: 1px solid #7A3145;
 }
 .input-form:valid {
     border: 1px solid #3CBC81;
 }
 
-.input-form:invalid {
+.input-form:not(:placeholder-shown):invalid {
     border: 1px solid #E74A3B;
 }
 
