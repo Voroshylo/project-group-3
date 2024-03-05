@@ -111,7 +111,7 @@
     border: 1px solid #3CBC81;
 }
 
-.input-form:invalid {
+.input-form:not(:placeholder-shown):invalid {
     border: 1px solid #E74A3B;
 }
 
