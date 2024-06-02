@@ -57,11 +57,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .header {
-    /* top: 32px; */
-position: fixed;
+    top: 32px;
+/* position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1000; */
   }
   .container {
     max-width: 768px;
